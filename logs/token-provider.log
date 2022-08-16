@@ -1,0 +1,23 @@
+2022-08-02 14:59:43,237 INFO org.springframework.boot.StartupInfoLogger [main] Starting TokenProviderApplication using Java 11.0.16 on lnb035765cps with PID 163017 (/home/leonardoq/Documentos/projetct-myMusic-toTal/TokenProvider/target/classes started by CIANDT\leonardoq in /home/leonardoq/Documentos/projetct-myMusic-toTal)
+2022-08-02 14:59:43,243 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-08-02 14:59:45,518 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8081 (http)
+2022-08-02 14:59:45,540 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8081"]
+2022-08-02 14:59:45,541 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-08-02 14:59:45,542 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-08-02 14:59:45,681 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-08-02 14:59:45,683 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2314 ms
+2022-08-02 14:59:46,535 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-08-02 14:59:46,569 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8081"]
+2022-08-02 14:59:46,590 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8081 (http) with context path ''
+2022-08-02 14:59:46,614 INFO org.springframework.boot.StartupInfoLogger [main] Started TokenProviderApplication in 4.28 seconds (JVM running for 5.473)
+2022-08-02 15:00:27,161 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-02 15:00:27,162 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-08-02 15:00:27,165 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8081-exec-1] Completed initialization in 3 ms
+2022-08-02 15:00:27,317 INFO com.ciandt.token.provider.controllers.TokenController [http-nio-8081-exec-1] Recebido requisição para criação de token para chave: leo
+2022-08-02 15:00:27,438 INFO com.ciandt.token.provider.controllers.TokenController [http-nio-8081-exec-1] Token gerado com sucesso
+2022-08-02 15:01:33,249 INFO com.ciandt.token.provider.controllers.TokenController [http-nio-8081-exec-4] Recebido requisição para criação de token para chave: leo
+2022-08-02 15:01:33,254 INFO com.ciandt.token.provider.controllers.TokenController [http-nio-8081-exec-4] Token gerado com sucesso
+2022-08-02 15:02:17,495 INFO com.ciandt.token.provider.controllers.TokenAuthorizerController [http-nio-8081-exec-6] Recebido requisição para geração de token: leo
+2022-08-02 15:02:17,498 ERROR com.ciandt.token.provider.controllers.TokenAuthorizerController [http-nio-8081-exec-6] Requisição inválida: Token expirado
+2022-08-02 15:02:22,464 INFO com.ciandt.token.provider.controllers.TokenAuthorizerController [http-nio-8081-exec-7] Recebido requisição para geração de token: leo
+2022-08-02 15:02:22,465 INFO com.ciandt.token.provider.controllers.TokenAuthorizerController [http-nio-8081-exec-7] Token validado com sucesso
