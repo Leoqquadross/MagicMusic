@@ -12,3 +12,5 @@ API responsável por gerenciar as musicas do usuário. Possui como principais fu
 
 ● Possui acesso de autenticação do usuário.
 
+Brevemente, novas funcionalidades.
+
